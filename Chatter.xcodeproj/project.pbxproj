@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		A8913808256D2C9000850905 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913807256D2C9000850905 /* UIButton + Extension.swift */; };
 		A891380D256D313200850905 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891380C256D313200850905 /* UIFont + Extension.swift */; };
-		A8913812256D336000850905 /* UIFile + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913811256D336000850905 /* UIFile + Extension.swift */; };
+		A8913812256D336000850905 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913811256D336000850905 /* UIColor + Extension.swift */; };
 		A8913817256D36EB00850905 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913816256D36EB00850905 /* UILabel + Extension.swift */; };
 		A891381F256D389400850905 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891381E256D389400850905 /* UIImageView + Extension.swift */; };
+		A89A5300256D503100D644AA /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A52FF256D503100D644AA /* ButtonFormView.swift */; };
+		A89A5305256D581E00D644AA /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A5304256D581E00D644AA /* UIStackView + Extension.swift */; };
 		A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE2256CF78100056C42 /* AppDelegate.swift */; };
 		A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE4256CF78100056C42 /* SceneDelegate.swift */; };
 		A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE6256CF78100056C42 /* AuthViewController.swift */; };
@@ -43,9 +45,11 @@
 /* Begin PBXFileReference section */
 		A8913807256D2C9000850905 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		A891380C256D313200850905 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
-		A8913811256D336000850905 /* UIFile + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFile + Extension.swift"; sourceTree = "<group>"; };
+		A8913811256D336000850905 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		A8913816256D36EB00850905 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		A891381E256D389400850905 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		A89A52FF256D503100D644AA /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		A89A5304256D581E00D644AA /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
 		A8F56ADF256CF78100056C42 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F56AE2256CF78100056C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F56AE4256CF78100056C42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A89A52F7256D45E800D644AA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A8913807256D2C9000850905 /* UIButton + Extension.swift */,
+				A8913811256D336000850905 /* UIColor + Extension.swift */,
+				A891380C256D313200850905 /* UIFont + Extension.swift */,
+				A8913816256D36EB00850905 /* UILabel + Extension.swift */,
+				A891381E256D389400850905 /* UIImageView + Extension.swift */,
+				A89A5304256D581E00D644AA /* UIStackView + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A89A52FB256D465000D644AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A89A52FF256D503100D644AA /* ButtonFormView.swift */,
+				A89A52F7256D45E800D644AA /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A8F56AD6256CF78100056C42 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +138,7 @@
 		A8F56AE1256CF78100056C42 /* Chatter */ = {
 			isa = PBXGroup;
 			children = (
+				A89A52FB256D465000D644AA /* Extensions */,
 				A8F56AE2256CF78100056C42 /* AppDelegate.swift */,
 				A8F56AE4256CF78100056C42 /* SceneDelegate.swift */,
 				A8F56AE6256CF78100056C42 /* AuthViewController.swift */,
@@ -119,11 +146,6 @@
 				A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */,
 				A8F56AF3256CF78600056C42 /* Info.plist */,
 				A8F56AEB256CF78100056C42 /* Chatter.xcdatamodeld */,
-				A8913807256D2C9000850905 /* UIButton + Extension.swift */,
-				A891380C256D313200850905 /* UIFont + Extension.swift */,
-				A8913811256D336000850905 /* UIFile + Extension.swift */,
-				A8913816256D36EB00850905 /* UILabel + Extension.swift */,
-				A891381E256D389400850905 /* UIImageView + Extension.swift */,
 			);
 			path = Chatter;
 			sourceTree = "<group>";
@@ -282,9 +304,11 @@
 				A8913817256D36EB00850905 /* UILabel + Extension.swift in Sources */,
 				A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */,
 				A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */,
+				A89A5305256D581E00D644AA /* UIStackView + Extension.swift in Sources */,
+				A89A5300256D503100D644AA /* ButtonFormView.swift in Sources */,
 				A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */,
 				A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */,
-				A8913812256D336000850905 /* UIFile + Extension.swift in Sources */,
+				A8913812256D336000850905 /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

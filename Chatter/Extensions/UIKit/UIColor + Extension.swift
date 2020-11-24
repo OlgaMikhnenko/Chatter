@@ -1,5 +1,5 @@
 //
-//  UIFile + Extension.swift
+//  UIColor + Extension.swift
 //  Chatter
 //
 //  Created by Helga on 24.11.2020.
