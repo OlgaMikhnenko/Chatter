@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8913808256D2C9000850905 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913807256D2C9000850905 /* UIButton + Extension.swift */; };
+		A891380D256D313200850905 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891380C256D313200850905 /* UIFont + Extension.swift */; };
+		A8913812256D336000850905 /* UIFile + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913811256D336000850905 /* UIFile + Extension.swift */; };
+		A8913817256D36EB00850905 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8913816256D36EB00850905 /* UILabel + Extension.swift */; };
+		A891381F256D389400850905 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891381E256D389400850905 /* UIImageView + Extension.swift */; };
 		A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE2256CF78100056C42 /* AppDelegate.swift */; };
 		A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE4256CF78100056C42 /* SceneDelegate.swift */; };
 		A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE6256CF78100056C42 /* AuthViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8913807256D2C9000850905 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		A891380C256D313200850905 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		A8913811256D336000850905 /* UIFile + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFile + Extension.swift"; sourceTree = "<group>"; };
+		A8913816256D36EB00850905 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		A891381E256D389400850905 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		A8F56ADF256CF78100056C42 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F56AE2256CF78100056C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F56AE4256CF78100056C42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +119,11 @@
 				A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */,
 				A8F56AF3256CF78600056C42 /* Info.plist */,
 				A8F56AEB256CF78100056C42 /* Chatter.xcdatamodeld */,
+				A8913807256D2C9000850905 /* UIButton + Extension.swift */,
+				A891380C256D313200850905 /* UIFont + Extension.swift */,
+				A8913811256D336000850905 /* UIFile + Extension.swift */,
+				A8913816256D36EB00850905 /* UILabel + Extension.swift */,
+				A891381E256D389400850905 /* UIImageView + Extension.swift */,
 			);
 			path = Chatter;
 			sourceTree = "<group>";
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A891381F256D389400850905 /* UIImageView + Extension.swift in Sources */,
+				A891380D256D313200850905 /* UIFont + Extension.swift in Sources */,
+				A8913808256D2C9000850905 /* UIButton + Extension.swift in Sources */,
+				A8913817256D36EB00850905 /* UILabel + Extension.swift in Sources */,
 				A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */,
 				A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */,
 				A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */,
 				A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */,
+				A8913812256D336000850905 /* UIFile + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
