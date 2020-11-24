@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE2256CF78100056C42 /* AppDelegate.swift */; };
 		A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE4256CF78100056C42 /* SceneDelegate.swift */; };
-		A8F56AE7256CF78100056C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE6256CF78100056C42 /* ViewController.swift */; };
-		A8F56AEA256CF78100056C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F56AE8256CF78100056C42 /* Main.storyboard */; };
+		A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE6256CF78100056C42 /* AuthViewController.swift */; };
 		A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AEB256CF78100056C42 /* Chatter.xcdatamodeld */; };
 		A8F56AEF256CF78600056C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F56AEE256CF78600056C42 /* Assets.xcassets */; };
 		A8F56AF2256CF78600056C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */; };
@@ -40,8 +39,7 @@
 		A8F56ADF256CF78100056C42 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F56AE2256CF78100056C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F56AE4256CF78100056C42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8F56AE6256CF78100056C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8F56AE9256CF78100056C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F56AE6256CF78100056C42 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		A8F56AEC256CF78100056C42 /* Chatter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chatter.xcdatamodel; sourceTree = "<group>"; };
 		A8F56AEE256CF78600056C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F56AF1256CF78600056C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,8 +104,7 @@
 			children = (
 				A8F56AE2256CF78100056C42 /* AppDelegate.swift */,
 				A8F56AE4256CF78100056C42 /* SceneDelegate.swift */,
-				A8F56AE6256CF78100056C42 /* ViewController.swift */,
-				A8F56AE8256CF78100056C42 /* Main.storyboard */,
+				A8F56AE6256CF78100056C42 /* AuthViewController.swift */,
 				A8F56AEE256CF78600056C42 /* Assets.xcassets */,
 				A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */,
 				A8F56AF3256CF78600056C42 /* Info.plist */,
@@ -240,7 +237,6 @@
 				A8F56B19256CFABF00056C42 /* .gitignore in Resources */,
 				A8F56AF2256CF78600056C42 /* LaunchScreen.storyboard in Resources */,
 				A8F56AEF256CF78600056C42 /* Assets.xcassets in Resources */,
-				A8F56AEA256CF78100056C42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F56AE7256CF78100056C42 /* ViewController.swift in Sources */,
+				A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */,
 				A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */,
 				A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */,
 				A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */,
@@ -304,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8F56AE8256CF78100056C42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8F56AE9256CF78100056C42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
