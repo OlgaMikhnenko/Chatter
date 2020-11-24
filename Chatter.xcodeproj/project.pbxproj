@@ -16,6 +16,7 @@
 		A8F56AF2256CF78600056C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */; };
 		A8F56AFD256CF78700056C42 /* ChatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AFC256CF78700056C42 /* ChatterTests.swift */; };
 		A8F56B08256CF78700056C42 /* ChatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56B07256CF78700056C42 /* ChatterUITests.swift */; };
+		A8F56B19256CFABF00056C42 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A8F56B18256CFABF00056C42 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A8F56B03256CF78700056C42 /* ChatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F56B07256CF78700056C42 /* ChatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterUITests.swift; sourceTree = "<group>"; };
 		A8F56B09256CF78700056C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F56B18256CFABF00056C42 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		A8F56AD6256CF78100056C42 = {
 			isa = PBXGroup;
 			children = (
+				A8F56B18256CFABF00056C42 /* .gitignore */,
 				A8F56AE1256CF78100056C42 /* Chatter */,
 				A8F56AFB256CF78700056C42 /* ChatterTests */,
 				A8F56B06256CF78700056C42 /* ChatterUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F56B19256CFABF00056C42 /* .gitignore in Resources */,
 				A8F56AF2256CF78600056C42 /* LaunchScreen.storyboard in Resources */,
 				A8F56AEF256CF78600056C42 /* Assets.xcassets in Resources */,
 				A8F56AEA256CF78100056C42 /* Main.storyboard in Resources */,
