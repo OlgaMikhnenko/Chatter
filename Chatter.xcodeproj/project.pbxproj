@@ -23,6 +23,8 @@
 		A8F56AFD256CF78700056C42 /* ChatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AFC256CF78700056C42 /* ChatterTests.swift */; };
 		A8F56B08256CF78700056C42 /* ChatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56B07256CF78700056C42 /* ChatterUITests.swift */; };
 		A8F56B19256CFABF00056C42 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A8F56B18256CFABF00056C42 /* .gitignore */; };
+		A8F9186D256E4C3800DC5C6E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */; };
+		A8F91875256E520600DC5C6E /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F91874256E520600DC5C6E /* OneLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		A8F56B07256CF78700056C42 /* ChatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterUITests.swift; sourceTree = "<group>"; };
 		A8F56B09256CF78700056C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F56B18256CFABF00056C42 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A8F91874256E520600DC5C6E /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				A89A52FF256D503100D644AA /* ButtonFormView.swift */,
+				A8F91874256E520600DC5C6E /* OneLineTextField.swift */,
 				A89A52F7256D45E800D644AA /* UIKit */,
 			);
 			path = Extensions;
@@ -142,6 +147,7 @@
 				A8F56AE2256CF78100056C42 /* AppDelegate.swift */,
 				A8F56AE4256CF78100056C42 /* SceneDelegate.swift */,
 				A8F56AE6256CF78100056C42 /* AuthViewController.swift */,
+				A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */,
 				A8F56AEE256CF78600056C42 /* Assets.xcassets */,
 				A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */,
 				A8F56AF3256CF78600056C42 /* Info.plist */,
@@ -304,10 +310,12 @@
 				A8913817256D36EB00850905 /* UILabel + Extension.swift in Sources */,
 				A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */,
 				A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */,
+				A8F9186D256E4C3800DC5C6E /* SignUpViewController.swift in Sources */,
 				A89A5305256D581E00D644AA /* UIStackView + Extension.swift in Sources */,
 				A89A5300256D503100D644AA /* ButtonFormView.swift in Sources */,
 				A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */,
 				A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */,
+				A8F91875256E520600DC5C6E /* OneLineTextField.swift in Sources */,
 				A8913812256D336000850905 /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -27,6 +27,10 @@ class AuthViewController: UIViewController {
         setUpConstraints()
     }
     
+    
+}
+// MARK: - setUpConstraints
+extension AuthViewController{
     private func setUpConstraints(){
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -53,8 +57,6 @@ class AuthViewController: UIViewController {
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
         ])
     }
-    
-
 }
 
 
