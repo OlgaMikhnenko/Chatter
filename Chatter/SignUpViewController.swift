@@ -20,6 +20,7 @@ class SignUpViewController : UIViewController{
     let passwordTextField = OneLineTextField(font: .avenir20())
     let confirmPasswordTextField = OneLineTextField(font: .avenir20())
     
+    
     let signUpButton = UIButton(title: "Sign up", titleColor: .white, backgroundColor: .buttonDark())
     let loginButton = UIButton()
     

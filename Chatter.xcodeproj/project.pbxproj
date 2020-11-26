@@ -25,6 +25,7 @@
 		A8F56B19256CFABF00056C42 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A8F56B18256CFABF00056C42 /* .gitignore */; };
 		A8F9186D256E4C3800DC5C6E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */; };
 		A8F91875256E520600DC5C6E /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F91874256E520600DC5C6E /* OneLineTextField.swift */; };
+		A8F91883256FC9F800DC5C6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F91882256FC9F800DC5C6E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		A8F56B18256CFABF00056C42 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A8F91874256E520600DC5C6E /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		A8F91882256FC9F800DC5C6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				A8F56AE4256CF78100056C42 /* SceneDelegate.swift */,
 				A8F56AE6256CF78100056C42 /* AuthViewController.swift */,
 				A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */,
+				A8F91882256FC9F800DC5C6E /* LoginViewController.swift */,
 				A8F56AEE256CF78600056C42 /* Assets.xcassets */,
 				A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */,
 				A8F56AF3256CF78600056C42 /* Info.plist */,
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F91883256FC9F800DC5C6E /* LoginViewController.swift in Sources */,
 				A891381F256D389400850905 /* UIImageView + Extension.swift in Sources */,
 				A891380D256D313200850905 /* UIFont + Extension.swift in Sources */,
 				A8913808256D2C9000850905 /* UIButton + Extension.swift in Sources */,
