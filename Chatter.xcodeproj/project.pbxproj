@@ -27,6 +27,7 @@
 		A8F91875256E520600DC5C6E /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F91874256E520600DC5C6E /* OneLineTextField.swift */; };
 		A8F91883256FC9F800DC5C6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F91882256FC9F800DC5C6E /* LoginViewController.swift */; };
 		A8F91894256FEFF500DC5C6E /* SetUpProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F91893256FEFF500DC5C6E /* SetUpProfileViewController.swift */; };
+		A8F9189F256FF3A700DC5C6E /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9189E256FF3A700DC5C6E /* AddPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		A8F91874256E520600DC5C6E /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		A8F91882256FC9F800DC5C6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A8F91893256FEFF500DC5C6E /* SetUpProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpProfileViewController.swift; sourceTree = "<group>"; };
+		A8F9189E256FF3A700DC5C6E /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				A89A52FF256D503100D644AA /* ButtonFormView.swift */,
 				A8F91874256E520600DC5C6E /* OneLineTextField.swift */,
+				A8F9189E256FF3A700DC5C6E /* AddPhotoView.swift */,
 				A89A52F7256D45E800D644AA /* UIKit */,
 			);
 			path = Extensions;
@@ -321,6 +324,7 @@
 				A8F9186D256E4C3800DC5C6E /* SignUpViewController.swift in Sources */,
 				A89A5305256D581E00D644AA /* UIStackView + Extension.swift in Sources */,
 				A89A5300256D503100D644AA /* ButtonFormView.swift in Sources */,
+				A8F9189F256FF3A700DC5C6E /* AddPhotoView.swift in Sources */,
 				A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */,
 				A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */,
 				A8F91875256E520600DC5C6E /* OneLineTextField.swift in Sources */,
