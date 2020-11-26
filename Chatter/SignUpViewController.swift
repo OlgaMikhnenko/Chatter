@@ -49,10 +49,13 @@ extension SignUpViewController{
                         confirmPasswordStackVIew,
                         signUpButton
         ], axis: .vertical, spacing: 40)
+        loginButton.contentHorizontalAlignment = .leading
         let buttonStackView = UIStackView(arrangedSubViews: [
                         alreadyOnboardLabel,
                         loginButton
-        ], axis: .horizontal, spacing: -1)
+        ], axis: .horizontal, spacing: 10)
+        buttonStackView.alignment = .firstBaseline
+        
         stackView.translatesAutoresizingMaskIntoConstraints = false
         buttonStackView.translatesAutoresizingMaskIntoConstraints = false
         welcomeLabel.translatesAutoresizingMaskIntoConstraints = false
