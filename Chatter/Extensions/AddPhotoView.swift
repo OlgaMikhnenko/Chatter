@@ -12,7 +12,7 @@ class AddPhotoView: UIView {
     var circleImageView : UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = #imageLiteral(resourceName: "avatar")
+        imageView.image = #imageLiteral(resourceName: "avatar-4")
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         imageView.layer.borderColor = UIColor.black.cgColor
@@ -67,6 +67,6 @@ extension AddPhotoView{
         
         self.bottomAnchor.constraint(equalTo: circleImageView.bottomAnchor).isActive = true
         self.trailingAnchor.constraint(equalTo: plusButton.trailingAnchor).isActive = true
-        
     }
+    
 }
