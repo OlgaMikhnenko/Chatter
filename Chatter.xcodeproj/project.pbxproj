@@ -15,6 +15,9 @@
 		A89A5300256D503100D644AA /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A52FF256D503100D644AA /* ButtonFormView.swift */; };
 		A89A5305256D581E00D644AA /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89A5304256D581E00D644AA /* UIStackView + Extension.swift */; };
 		A8D136AA25768DCC000946FC /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D136A925768DCC000946FC /* SegmentedControl + Extension.swift */; };
+		A8D136BA2576D53A000946FC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D136B92576D53A000946FC /* ListViewController.swift */; };
+		A8D136C22576D565000946FC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D136C12576D565000946FC /* MainTabBarController.swift */; };
+		A8D136C72576D5E5000946FC /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D136C62576D5E5000946FC /* PeopleViewController.swift */; };
 		A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE2256CF78100056C42 /* AppDelegate.swift */; };
 		A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE4256CF78100056C42 /* SceneDelegate.swift */; };
 		A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F56AE6256CF78100056C42 /* AuthViewController.swift */; };
@@ -57,6 +60,9 @@
 		A89A52FF256D503100D644AA /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		A89A5304256D581E00D644AA /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
 		A8D136A925768DCC000946FC /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
+		A8D136B92576D53A000946FC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A8D136C12576D565000946FC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A8D136C62576D5E5000946FC /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		A8F56ADF256CF78100056C42 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F56AE2256CF78100056C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F56AE4256CF78100056C42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +135,27 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A8D136B42576D412000946FC /* Sing in & Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				A8F56AE6256CF78100056C42 /* AuthViewController.swift */,
+				A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */,
+				A8F91882256FC9F800DC5C6E /* LoginViewController.swift */,
+				A8F91893256FEFF500DC5C6E /* SetUpProfileViewController.swift */,
+			);
+			path = "Sing in & Authorization";
+			sourceTree = "<group>";
+		};
+		A8D136B82576D50D000946FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8D136C12576D565000946FC /* MainTabBarController.swift */,
+				A8D136B92576D53A000946FC /* ListViewController.swift */,
+				A8D136C62576D5E5000946FC /* PeopleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A8F56AD6256CF78100056C42 = {
 			isa = PBXGroup;
 			children = (
@@ -153,13 +180,11 @@
 		A8F56AE1256CF78100056C42 /* Chatter */ = {
 			isa = PBXGroup;
 			children = (
-				A89A52FB256D465000D644AA /* Extensions */,
 				A8F56AE2256CF78100056C42 /* AppDelegate.swift */,
 				A8F56AE4256CF78100056C42 /* SceneDelegate.swift */,
-				A8F56AE6256CF78100056C42 /* AuthViewController.swift */,
-				A8F9186C256E4C3800DC5C6E /* SignUpViewController.swift */,
-				A8F91882256FC9F800DC5C6E /* LoginViewController.swift */,
-				A8F91893256FEFF500DC5C6E /* SetUpProfileViewController.swift */,
+				A8D136B82576D50D000946FC /* Controllers */,
+				A8D136B42576D412000946FC /* Sing in & Authorization */,
+				A89A52FB256D465000D644AA /* Extensions */,
 				A8F56AEE256CF78600056C42 /* Assets.xcassets */,
 				A8F56AF0256CF78600056C42 /* LaunchScreen.storyboard */,
 				A8F56AF3256CF78600056C42 /* Info.plist */,
@@ -321,6 +346,7 @@
 				A891380D256D313200850905 /* UIFont + Extension.swift in Sources */,
 				A8913808256D2C9000850905 /* UIButton + Extension.swift in Sources */,
 				A8913817256D36EB00850905 /* UILabel + Extension.swift in Sources */,
+				A8D136C72576D5E5000946FC /* PeopleViewController.swift in Sources */,
 				A8F56AE7256CF78100056C42 /* AuthViewController.swift in Sources */,
 				A8F91894256FEFF500DC5C6E /* SetUpProfileViewController.swift in Sources */,
 				A8F56AE3256CF78100056C42 /* AppDelegate.swift in Sources */,
@@ -329,7 +355,9 @@
 				A89A5300256D503100D644AA /* ButtonFormView.swift in Sources */,
 				A8F9189F256FF3A700DC5C6E /* AddPhotoView.swift in Sources */,
 				A8F56AE5256CF78100056C42 /* SceneDelegate.swift in Sources */,
+				A8D136C22576D565000946FC /* MainTabBarController.swift in Sources */,
 				A8F56AED256CF78100056C42 /* Chatter.xcdatamodeld in Sources */,
+				A8D136BA2576D53A000946FC /* ListViewController.swift in Sources */,
 				A8F91875256E520600DC5C6E /* OneLineTextField.swift in Sources */,
 				A8913812256D336000850905 /* UIColor + Extension.swift in Sources */,
 				A8D136AA25768DCC000946FC /* SegmentedControl + Extension.swift in Sources */,
