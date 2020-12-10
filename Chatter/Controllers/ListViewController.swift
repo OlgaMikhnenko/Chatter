@@ -7,13 +7,13 @@
 
 import UIKit
 
-struct MChat : Hashable {
-    var userName : String
-    var userImage : UIImage
-    var lastMessage : String
+struct MChat: Hashable {
+    var userName: String
+    var userImage: UIImage
+    var lastMessage: String
     var id = UUID()
     
-    func hash(into hasher : inout Hasher) {
+    func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
     
@@ -22,34 +22,35 @@ struct MChat : Hashable {
     }
 }
 
+
 class ListViewController: UIViewController {
     
-    let activeChats : [MChat] = [
-        MChat(userName: "Bob", userImage: UIImage(named : "human1")!, lastMessage: "How are you?"),
-        MChat(userName: "Rob", userImage: UIImage(named : "human2")!, lastMessage: "How are you?"),
-        MChat(userName: "Zac", userImage: UIImage(named : "human3")!, lastMessage: "How are you?"),
-        MChat(userName: "Mila", userImage: UIImage(named : "human4")!, lastMessage: "How are you?"),
-                                 
+    let activeChats: [MChat] = [
+        MChat(userName: "Alexey", userImage: UIImage(named: "human1")!, lastMessage: "How are you?"),
+        MChat(userName: "Bob", userImage: UIImage(named: "human2")!, lastMessage: "How are you?"),
+        MChat(userName: "Misha", userImage: UIImage(named: "human3")!, lastMessage: "How are you?"),
+        MChat(userName: "Mila", userImage: UIImage(named: "human4")!, lastMessage: "How are you?")
     ]
     
     //enum hashable по умолчанию
-    enum Section : Int, CaseIterable {
+    enum Section: Int, CaseIterable {
         case activeChats
     }
     
-    var dataSource : UICollectionViewDiffableDataSource<Section, MChat>?
+    var dataSource: UICollectionViewDiffableDataSource<Section, MChat>?
+    
     var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupSeachBar()
+        setupSearchBar()
         setupCollectionView()
-        reloadData()
         createDataSource()
+        reloadData()
     }
     
-    private func setupSeachBar(){
+    private func setupSearchBar() {
         navigationController?.navigationBar.barTintColor = .mainWhite()
         navigationController?.navigationBar.shadowImage = UIImage()
         let searchController = UISearchController(searchResultsController: nil)
@@ -77,8 +78,8 @@ class ListViewController: UIViewController {
             guard let section = Section(rawValue: indexPath.section) else {
                 fatalError("Unknown section kind")
             }
-            switch section {
             
+            switch section {
             case .activeChats:
                 let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellid", for: indexPath)
                 cell.backgroundColor = .systemBlue
@@ -155,4 +156,5 @@ struct ListVCProvider: PreviewProvider {
         }
     }
 }
+
 
