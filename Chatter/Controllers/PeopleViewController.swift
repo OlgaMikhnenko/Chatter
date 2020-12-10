@@ -11,10 +11,10 @@ class PeopleViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupSeachBar()
+        setupSearchBar()
         view.backgroundColor = .orange
     }
-    private func setupSeachBar(){
+    private func setupSearchBar() {
         navigationController?.navigationBar.barTintColor = .mainWhite()
         navigationController?.navigationBar.shadowImage = UIImage()
         let searchController = UISearchController(searchResultsController: nil)
